@@ -13,6 +13,6 @@ public:
 	string Name;
 	int getHealth();
 	void setHealth(int h);
-private:
+protected:
 	int Health;
 };
