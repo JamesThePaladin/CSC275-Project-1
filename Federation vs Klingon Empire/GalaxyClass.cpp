@@ -13,3 +13,9 @@ void GalaxyClass::FirePhasers()
 {
 	cout << "Firing all phaser banks!" << endl;
 }
+
+int Ship::attack() 
+{
+	Health = Health - 25;
+	return Health;
+}

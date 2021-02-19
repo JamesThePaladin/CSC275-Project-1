@@ -15,3 +15,9 @@ void BirdofPrey::FireTorpedos()
 {
 	cout << "Firing photon torpedos!" << endl;
 }
+
+int Ship::attack()
+{
+	Health = Health - 25;
+	return Health;
+}

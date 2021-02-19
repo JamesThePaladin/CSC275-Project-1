@@ -18,3 +18,20 @@ void Ship::setHealth(int h)
 		Health = h;
 	}
 }
+
+void Ship::Talk(string stuffToSay) 
+{
+	cout << stuffToSay << endl;
+}
+
+void Ship::Talk(string name, string stuffToSay) 
+{
+	cout << name << ", ";
+	cout << stuffToSay << endl;
+}
+
+int Ship::attack() 
+{
+	Health = Health - 10;
+	return Health;
+}
