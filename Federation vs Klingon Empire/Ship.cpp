@@ -19,6 +19,11 @@ void Ship::setHealth(int h)
 	}
 }
 
+void Ship::setName(string N)
+{
+	name = N;
+}
+
 void Ship::Talk(string stuffToSay) 
 {
 	cout << stuffToSay << endl;
@@ -34,4 +39,15 @@ int Ship::attack()
 {
 	Health = Health - 10;
 	return Health;
+}
+
+void Ship::Help() 
+{
+	cout << "This is a help method." << endl;
+}
+
+void Ship::Display() 
+{
+	cout << "Name: " << name << endl;
+	cout << "Health: " << Health << endl;
 }

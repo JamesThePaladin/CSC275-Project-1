@@ -138,12 +138,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BirdofPrey.cpp" />
     <ClCompile Include="Common.cpp" />
+    <ClCompile Include="GalaxyClass.cpp" />
+    <ClCompile Include="GameStructure.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BirdofPrey.h" />
     <ClInclude Include="Common.h" />
+    <ClInclude Include="GalaxyClass.h" />
     <ClInclude Include="GameStructure.h" />
     <ClInclude Include="Ship.h" />
   </ItemGroup>

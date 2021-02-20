@@ -10,12 +10,15 @@ using namespace std;
 class Ship : public GameStructure 
 {
 public:
-	string Name;
+	string name;
 	int getHealth();
 	void setHealth(int h);
-protected:
-	int Health = 100;
+	void setName(string N);
+	void Help();
+	void Display();
+	virtual int attack();
 	void Talk(string stuffToSay);
 	void Talk(string name, string stuffToSay);
-	virtual int attack();
+protected:
+	int Health = 100;
 };

@@ -8,4 +8,6 @@ public:
 	BirdofPrey();
 	BirdofPrey(string N, int h);
 	void FireTorpedos();
+	void Help();
+	int attack();
 };
