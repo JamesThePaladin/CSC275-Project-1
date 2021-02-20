@@ -1,9 +1,12 @@
 #include "GalaxyClass.h"
 
+//constructor
 GalaxyClass::GalaxyClass() 
 {
 
 }
+
+//constructor for Galaxy Class
 GalaxyClass::GalaxyClass(string N, int h) 
 {
 	name = N;
